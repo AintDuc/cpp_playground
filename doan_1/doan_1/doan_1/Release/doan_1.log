@@ -1,0 +1,9 @@
+﻿  01_base_stuff.cpp
+  02_QItn.cpp
+  app.cpp
+D:\Học kỳ 6\KTMT & HN\doan_1\doan_1\doan_1\01_base_stuff.cpp(10,11): warning C4309:  'initializing': truncation of constant value
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 167 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  doan_1.vcxproj -> D:\Học kỳ 6\KTMT & HN\doan_1\doan_1\Release\doan_1.exe
