@@ -1,0 +1,23 @@
+﻿- Các tao tác xử lý trên bit pdf
+- Khảo sát số nguyen pdf
+
+
++ https://vietjack.com/cplusplus/
++ https://www.stdio.vn/articles/doc-ghi-file-co-ban-voi-fstream-173
+
++ https://www.cplusplus.com/reference/string/string/?kw=string
++ http://www.cplusplus.com/articles/D9j2Nwbp/
++ https://www.geeksforgeeks.org/1s-2s-complement-binary-number/
++ https://stackoverflow.com/questions/2249731/how-do-i-get-bit-by-bit-data-from-an-integer-value-in-c
++ http://www.cplusplus.com/reference/string/stoi/
++ https://stackoverflow.com/questions/15344714/convert-command-line-argument-to-string
++ http://www.cplusplus.com/doc/tutorial/exceptions/
+
++ https://github.com/quanvovan/Qint.project
++ https://github.com/vosylienthanh/BigNum16Bytes
++ https://github.com/vltanh/QBit/blob/master/QInt/QInt.h
+
+
++ https://viblo.asia/p/su-dung-vector-trong-lap-trinh-c-giai-bai-toan-lap-trinh-muon-thua-Az45bnGQ5xY 
++ https://stackoverflow.com/questions/13784062/convert-files-into-string-array-c
++ https://www.fluentcpp.com/2017/04/21/how-to-split-a-string-in-c/

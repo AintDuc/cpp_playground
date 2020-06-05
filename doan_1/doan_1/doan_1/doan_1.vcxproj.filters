@@ -27,6 +27,9 @@
     <ClCompile Include="02_QInt.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
+    <ClCompile Include="03_handle_file.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01_base_stuff.h">
@@ -38,5 +41,13 @@
     <ClInclude Include="02_QInt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="03_handle_file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="thamkhao.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

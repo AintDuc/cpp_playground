@@ -125,13 +125,18 @@
   <ItemGroup>
     <ClCompile Include="01_base_stuff.cpp" />
     <ClCompile Include="02_QInt.cpp" />
+    <ClCompile Include="03_handle_file.cpp" />
     <ClCompile Include="app.cpp" />
     <ClCompile Include="utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01_base_stuff.h" />
     <ClInclude Include="02_QInt.h" />
+    <ClInclude Include="03_handle_file.h" />
     <ClInclude Include="utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="thamkhao.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

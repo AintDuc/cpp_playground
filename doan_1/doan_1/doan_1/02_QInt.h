@@ -1,22 +1,56 @@
 ﻿#ifndef __QINT__
 #define __QINT__
 #include "01_base_stuff.h"
+#include "utils.h"
 
-// so nguyen lon'
+#define __QINT_SIZE__ 16
+
+// so nguyen lớn
 class QInt {
 private:
-	 int arrays_bits[4];
-	 const int total_bits_one_element= 32;
-	 const int total_bytes_one_element = 4;
-     // 4 byte, 32 bit 1 phần tử
-	 // tổng 128 bit big int, 16 byte big int
+	  int arr_bits[4];
+	 static const int total_bits_one_element= 32;
+	 static const int total_bytes_one_element = 4;
+
+     // 4 byte, 4 phần tử, 32 bit 1 phần tử
+	 // tổng 128 bit , 16 byte
 public:
 	QInt();
 	QInt(string number,int base=10);
 	~QInt();
-
 public:
-	string base10_to_base2(string n);
+	void log(int base);
+	string to_string(int base);
+	void chua_lam_duoc();
+public:
+	bool get_arr_bits(int pos);
+	void set_arr_bits(int pos, bool value);
+public:
+	static string dec_to_bin(QInt n);
+	static QInt bin_to_dec(string n);
+	static string dec_to_hex(QInt n);
+	static string bin_to_hex(string n);
+public:
+	QInt& operator+(const QInt& m);
+	QInt& operator-(const QInt& m);
+	QInt& operator*(const QInt& m);
+	QInt& operator/(const QInt& m);
+	QInt& operator=(const QInt& m);
+	QInt& operator&(const QInt& m);
+	QInt& operator|(const QInt& m);
+	QInt& operator^(const QInt& m);
+	QInt& operator~();
+	QInt& operator>>(const QInt& m);
+	QInt& operator<<(const QInt& m);
+	bool operator<(const QInt& m);
+	bool operator<=(const QInt& m);
+	bool operator>(const QInt& m);
+	bool operator>=(const QInt& m);
+	bool operator==(const QInt& m);
+	QInt& operator>>(int);
+	QInt& operator<<(int);
+	QInt& rol();
+	QInt& ror();
 
 };
 

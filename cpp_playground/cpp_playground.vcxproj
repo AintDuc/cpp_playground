@@ -125,11 +125,13 @@
   <ItemGroup>
     <ClCompile Include="01_base.cpp" />
     <ClCompile Include="02_advance.cpp" />
+    <ClCompile Include="03_string.cpp" />
     <ClCompile Include="app.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01_base_library.h" />
     <ClInclude Include="02_advance.h" />
+    <ClInclude Include="03_string.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
